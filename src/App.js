@@ -1,24 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import ApiData from './ApiData';
+import RickyCard from './RickyCard';
+import ApiDataFetch from './ApiDataFetch';
+import Apidataget from './Apidataget';
+import ApiDataCalling from './ApiDataCalling';
+import ApiCRUD from './ApiCRUD';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+      <ApiData></ApiData>
+      {/* <RickyCard></RickyCard> */}
+      {/* <ApiDataFetch></ApiDataFetch> */}
+      {/* <Apidataget></Apidataget> */}
+      {/* <ApiDataCalling></ApiDataCalling> */}
+      {/* <ApiCRUD></ApiCRUD> */}
+   </>
   );
 }
 
